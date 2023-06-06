@@ -1,15 +1,12 @@
 # MotavationMantra
-This web page will displays a random motivational quote along with an image every time the button is clicked.  
-●Built with HTML, CSS and JavaScript.  
-●Integrated with the Zen Quotes API.  
-●Fully responsive.
+This is a fully responsive web page that displays a random motivational quote every time the button is clicked or the page is refreshed.
 
 ## Technologies Used
 This project is built using:-  
  ●HTML5 (Structuring)  
  ●CSS3 (Styling)  
  ●JavaScript (Server side scripting)  
- ●Open Library (API)  
+ ●Zen Quotes (API)  
  ●Git/GitHub (Version control)  
  ●Netlify (Hosting)  
  
