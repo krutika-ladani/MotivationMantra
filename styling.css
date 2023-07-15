@@ -46,7 +46,7 @@ body
 }
 #listen:hover
 {
-    color: rgb(93, 37, 197); 
+    color: rgb(106, 89, 204); 
     cursor: pointer;
 }
 #quote-space
@@ -114,6 +114,10 @@ body
 @media (max-width: 400px)
 {
     .quote
+    {
+        font-size: 18px;
+    }
+    #author
     {
         font-size: 16px;
     }
