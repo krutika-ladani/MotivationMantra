@@ -1,49 +1,105 @@
+.material-symbols-outlined 
+{
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 900 ;
+  position: absolute;
+  top: 4px;
+  right: 7px;
+  color: rgb(98, 15, 102);
+}
 body
 {
     height:100vh;
     width: 100vw;
     margin: 0px;
     padding:0px;
+    background-image: linear-gradient(to right ,rgb(108, 15, 136), rgb(182, 3, 137));
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.main
+#main
 {
-    height:100%;
+    background-color: rgb(187, 85, 190);
+    border-radius: 20px;
+    width: 100vw;
+    max-width: 500px;
+    height: 350px;
+    box-shadow: rgb(97, 6, 74) 0 0 40px;
+    border-top: 3px solid rgb(240, 204, 231);
+    border-left: 3px solid rgb(240, 204, 231);
+    position: relative;
+    overflow: hidden;
+}
+#listen
+{
+    font-size: 40px;
+}
+#listen:hover
+{
+    color: rgb(233, 148, 236); 
+    cursor: pointer;
+}
+#quote-space
+{
     width: 100%;
-    padding: 0px;
-    background-color: black;
+    height: 92%;
+    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
-.image
+.quote
 {
-    height:100%;
-}
-button
-{
-    position:absolute;
-    bottom:30%;
-    right:35%;
-    left:35%;
-    padding: 5px 3px;
     color: white;
-    background-color: black;
+    width: 90%;
+    font-size: 20px;
+    line-height: 20px;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 1;
 }
-@media (max-width: 800px)
+#author
 {
-    .image
-    {
-        width:100%;
-        height: auto;
-    }
-    .main
-    {
-        flex-direction: column;
-        overflow: hidden;
-    }
-    :no-button
-    {
-        right:23%;
-        left:23%;
-    }
+    font-style: italic;
+    color: rgb(242, 196, 245);
+}
+#next
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 49.8%;
+    height:45px;
+    background-color: rgb(207, 107, 211);
+    box-shadow: rgb(163, 69, 167) 0 0 40px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 550;
+    color: rgb(91, 11, 95);
+}
+#copy
+{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 49.8%;
+    height:45px;
+    background-color: rgb(207, 107, 211);
+    box-shadow: rgb(163, 69, 167) 0 0 40px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 550;
+    color: rgb(91, 11, 95);
+}
+#next:hover , #copy:hover
+{
+    background-color: rgb(233, 148, 236);
+    cursor: pointer;
 }
