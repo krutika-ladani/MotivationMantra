@@ -6,7 +6,7 @@ This project is built using:-
  - HTML5 (Structuring)  
  - CSS3 (Styling)  
  - JavaScript (Server side scripting)  
- - Zen Quotes (API)  
+ - quotable (API)  
  - Git/GitHub (Version control)  
  - Netlify (Hosting)  
  
