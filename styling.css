@@ -67,7 +67,7 @@ body
 {
     font-style: italic;
     color: rgb(242, 196, 245);
-    line-height: 2px;
+    line-height: 10px;
 }
 #next
 {
@@ -108,6 +108,6 @@ body
 {
     .quote
     {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
