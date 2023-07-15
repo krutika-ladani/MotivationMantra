@@ -16,8 +16,9 @@ body
     width: 100vw;
     margin: 0px;
     padding: 0px;
-    background-image: linear-gradient(to right , rgb(53, 7, 126) , rgb(99, 20, 79));
+    background-image: linear-gradient(to right , rgb(34, 3, 83) , rgb(106, 89, 204));
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -28,12 +29,12 @@ body
 }
 #main
 {
-    background-color: rgb(128, 55, 212);
+    background-color: rgb(175, 187, 255);
     border-radius: 20px;
     width: 100vw;
     max-width: 550px;
     height: 350px;
-    box-shadow: rgb(18, 6, 27) 15px 15px 40px;
+    box-shadow: rgb(18, 6, 27) 15px 15px 60px;
     border-top: 3px solid white;
     border-left: 3px solid white;
     position: relative;
@@ -45,7 +46,7 @@ body
 }
 #listen:hover
 {
-    color: rgb(213, 235, 248); 
+    color: rgb(93, 37, 197); 
     cursor: pointer;
 }
 #quote-space
@@ -61,7 +62,7 @@ body
 }
 .quote
 {
-    color: white;
+    color: rgb(0, 0, 0);
     width: 90%;
     font-size: 21px;
     word-wrap: break-word;
@@ -71,7 +72,8 @@ body
 #author
 {
     font-style: italic;
-    color: rgb(215, 213, 248);
+    color: rgb(40, 36, 116);
+    font-size: 19px;
     line-height: 10px;
 }
 #next
@@ -81,8 +83,8 @@ body
     left: 0px;
     width: 49.8%;
     height:45px;
-    background-color: rgb(146, 73, 241);
-    box-shadow: rgb(109, 51, 175) 0 0 40px;
+    background-color: rgb(187, 199, 233);
+    box-shadow: rgb(125, 143, 243) 0 0 40px;
     border: none;
     text-align: center;
     font-size: 17px;
@@ -96,8 +98,8 @@ body
     right: 0px;
     width: 49.8%;
     height:45px;
-    background-color: rgb(146, 73, 241);
-    box-shadow: rgb(109, 51, 175) 0 0 40px;
+    background-color: rgb(187, 199, 233);
+    box-shadow:  rgb(125, 143, 243) 0 0 40px;
     border: none;
     text-align: center;
     font-size: 17px;
@@ -106,7 +108,7 @@ body
 }
 #next:hover , #copy:hover
 {
-    background-color: rgb(159, 127, 247);
+    background-color: rgb(214, 222, 245);
     cursor: pointer;
 }
 @media (max-width: 400px)
