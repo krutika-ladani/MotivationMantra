@@ -27,7 +27,7 @@ body
     border-radius: 20px;
     width: 100vw;
     max-width: 550px;
-    height: 410px;
+    height: 350px;
     box-shadow: rgb(97, 6, 74) 0 0 40px;
     border-top: 3px solid rgb(240, 204, 231);
     border-left: 3px solid rgb(240, 204, 231);
@@ -103,4 +103,11 @@ body
 {
     background-color: rgb(233, 148, 236);
     cursor: pointer;
+}
+@media (max-width: 400px)
+{
+    #quote
+    {
+        font-size: 18px;
+    }
 }
