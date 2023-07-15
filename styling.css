@@ -18,8 +18,12 @@ body
     padding:0px;
     background-image: linear-gradient(to right ,rgb(108, 15, 136), rgb(182, 3, 137));
     display:flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+}
+#lamp
+{
+    height: 150px;
 }
 #main
 {
